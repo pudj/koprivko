@@ -1,0 +1,873 @@
+
+
+body {
+	text-transform: uppercase; font-family: 'Luckiest Guy', cursive;
+}
+
+footer,
+footer a,
+footer ul,
+footer li,
+header,
+header h1,
+header h2,
+header h3,
+section,
+span,
+section h1,
+section h2,
+section h3,
+section p {
+   margin: 0;
+}
+
+nav {
+	height: 100px; width: 100%;
+	background-color: #69bd4b;
+}
+
+#logo {
+	float: left; display: inline;
+	height: 60px; width: 180px;
+	padding: 10px 0 0 70px;
+}
+
+nav ul {
+	margin: 0 70px 0 0;
+	padding: 0;
+}
+
+nav li {
+	float: right; display: inline;
+	padding: 35px 5px 0 20px;
+
+}
+
+li button {
+	height: 35px;
+	width: 100px;
+	color: white;
+	background-color: #01a54f;
+	text-transform: uppercase; font-family: 'Luckiest Guy', cursive;
+	font-size: 1.1em;
+	border: 2px solid #1d7b3f;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #f6c451; /* Green */
+    color: #b54c1d;
+    border: 2px solid #c75320;
+    border-radius: 10px;
+}
+
+
+#hero-img{
+	min-height: 558px;
+	width: auto;
+	background: url("img/hero.png") no-repeat center center;
+	background-size: cover;
+}
+
+#o-meni{
+	background: url("img/bg-img-brown.png") no-repeat center center;
+	min-height: 558px
+	width: auto;
+	background-size: cover;
+}
+
+#papir {
+	min-height: 500px;
+	min-width:  auto;
+	background: url("img/papir.png") no-repeat center center;
+	background-size: contain;
+	text-align: center;
+}
+
+#papir h1 {
+	padding: 10% 25% 0 25% ;
+}
+#papir p {
+	padding: 0% 25% 0 25% ;
+	font-size: 1.3em;
+	line-height: 150%;
+}
+
+.moje-avanture{
+	background: url("img/avanture.png") no-repeat center center;
+	min-height: 558px
+	width: auto;
+	background-size: cover;
+	text-align: center;
+}
+
+#avantura{
+	height: 100px;
+	width: 250px;
+	background-color: #336633;
+	margin-left: 40%;
+	border-radius: 0 0 30px 30px;
+	color: white;
+	line-height:20px
+}
+
+#avantura h2{
+	padding-top: 30px;
+}
+
+
+#avantura span{
+	font-size: 0.6em;
+	color: #bcdfb7
+}
+
+
+
+.boxes {
+
+	min-height: 450px;
+	width: 50%;
+	margin-left: 40px;
+}
+
+.boxes div {
+	min-height: 120px;
+	width: 15%;
+	float: left;
+	margin: 10px 20px 10px 10px;
+	border: 5px solid #015426;
+	border-radius: 15px;
+	background: url("img/box-sample.png") no-repeat center center;
+	background-size: cover;
+	background-color: white;
+	transition: transform .2s;
+}
+
+.boxes div:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+section #circle{
+	min-height: 400px;
+	width: 40%;
+	float: right;
+	background-color: yellow;
+	display: inline;
+	background: url("img/box-sample.png") no-repeat center center;
+	background-size: cover;
+	border: 30px solid #015426;
+	border-radius: 50%;
+	background-color: white;
+	margin-right: 40px;
+}
+
+#koprive{
+	min-height: 400px;
+	width: auto;
+	background: url("img/koprive.png") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+#avantura2{
+	height: 200px;
+	width: 400px;
+	background-color: #336633;
+	margin-left: 35%;
+	border-radius: 30px 30px 0 0;
+	color: white;
+
+}
+
+#avantura2 h2{
+	padding: 40px 10px 0 10px;
+}
+
+#avantura2 button {
+	height: 45px;
+	width: 200px;
+	margin-top: 20px;
+	color: yellow;
+	text-transform: uppercase; font-family: 'Luckiest Guy', cursive;
+	background-color: #4bab0b;
+	border: 2px solid #003417;
+	border-radius: 10px;
+	font-size: 1.1em;
+}
+
+#avantura2 button:hover {
+    background-color: #f6c451; /* Green */
+    color: #b54c1d;
+    border: 2px solid #c75320;
+    border-radius: 10px;
+}
+
+#cps{
+	width: 100px;
+	height: 100px;
+	background: url("img/cps.png") no-repeat center center;
+	margin: auto;
+	background-size: contain;
+}
+
+#cps-logo{
+	min-height: 100px;
+	width: auto;
+	background-color: #f7e112;
+	
+}
+
+#ideja{
+	min-height: 120px;
+	width: auto;
+	background-color: #0093b5;
+	padding: 50px 0 0 80px;
+}
+
+#ideja h3{
+	color: #b1e3fa
+}
+
+#ideja h2{
+	color: #ffffff
+}
+
+#distribucija{
+	min-height: 120px;
+	width: auto;
+	background-color: #00667f;
+	padding: 20px 0 0 80px;
+	
+}
+#distribucija h3{
+	color: #b1e3fa
+}
+
+.blue{
+	min-height: 350px;
+	width: auto;
+	background-color: #3fc1cf;
+}
+
+#casopis{
+	min-height: 320px;
+	width: 50%;
+	background: url("img/casopis.png") no-repeat center center;
+	background-size: contain;
+	float: left;
+}
+
+.cijena{
+	min-height: 400px;
+	width: 50%;
+	float: right;
+	display: inline;
+	text-align: center;
+}
+
+.cijena h1{
+	padding-top: 40px;
+	color: #00667f;
+}
+
+.cijena p{
+	color: white;
+}
+
+#kn {
+	min-height: 120px;
+	width: 20%;
+	background-color: #00667f;
+	border-radius: 75%;
+	text-align: center;
+	margin-left: 40%;
+}
+
+#kn p{
+	color: #ffffff;
+	font-size: 3em;
+	padding-top: 20%;
+}
+
+#kn span{
+	color: #9fdfe8;
+	font-size: 0.5em;
+}
+
+#naruci-button{
+	background-color: #00667f;
+	border: 1px solid #00667f;
+	border-radius: 15px;
+	text-transform: uppercase; font-family: 'Luckiest Guy', cursive;
+	width: 150px;
+}
+
+#naruci-button h2{
+	color: #3fc1cf;
+
+}
+
+#naruci-button p{
+	color: white;
+}
+
+footer{
+	min-height: 600px;
+	width: auto;
+	background: url("img/footer-img.png") no-repeat center center;
+	background-size: cover;
+}
+
+.footer-nav{
+	height: 100px;
+	width: auto;
+	background-color: transparent;
+	padding-top: 450px;
+
+}
+
+.footer-nav #logo {
+	float: left; display: inline;
+	height: 60px; width: 180px;
+	padding: 0px 0 0 70px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin-right: 200px;
+    padding: 50px 0 0 0;
+    overflow: hidden;
+    
+}
+
+.footer-nav li {
+    float: right;
+    padding: 0 10px 0 10px;
+}
+
+.footer-nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+#hamburger{
+	background: url("img/hamburger.png") no-repeat center center;
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	display: hidden;
+}
+
+/* QUERIES */
+
+@media only screen and (max-width: 1024px) {
+    .footer-nav ul {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 50px 0 0 0;     
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+    #hamburger{
+       display: inline-block;
+       float: right;
+       margin: 35px 40px 0 0;
+    }
+
+    #logo {
+	float: left; display: inline;
+	height: 60px; width: 180px;
+	padding: 10px 0 0 25%;
+	}
+
+
+    nav {
+	height: 100px; width: 100%;
+	background-color: #69bd4b;
+	}
+
+
+	nav ul {
+	display: none;
+	margin: 0 0px 0 0;
+	padding: 0;
+	}
+
+	nav:hover ul{
+		display: block;
+		position: absolute;
+		padding: 20px;
+		right: 10px;
+		top: 65px;
+		width: 35%;
+	}
+
+	nav li {
+		width: 100%;
+	padding: 15px 0px;
+	text-align: center;
+	margin: 0;
+	}
+
+	#papir {
+	min-height: 300px;
+	min-width:  auto;
+	background: url("img/papir1.png") no-repeat center center;
+	background-size:contain;
+	text-align: center;
+	}
+
+	#papir h1 {
+	padding: 5% 25% 0 25% ;
+	}
+
+
+	#papir p {
+		height: 25%;
+		width: auto;
+	padding: 0% 25% 0 25%;
+	font-size: 0.8em;
+	}
+
+	.boxes {
+
+	min-height: 450px;
+	width: auto;
+	padding: 20px 20px;
+	}
+
+	.boxes div {
+	min-height: 100px;
+	width: 20%;
+	float: left;
+	margin: 10px 0px 0px 10px;
+	border: 5px solid #015426;
+	border-radius: 15px;
+	background: url("img/box-sample.png") no-repeat center center;
+	background-size: cover;
+	background-color: white;
+	transition: transform .2s;
+	}
+    section #circle{
+	display: none;
+	}
+
+	#avantura2{
+	height: 200px;
+	width: 350px;
+	background-color: #336633;
+	margin-left: 25%;
+	border-radius: 30px 30px 0 0;
+	color: white;
+	}
+
+	.footer-nav{
+	height: 100px;
+	width: auto;
+	background-color: transparent;
+	padding-top: 200px;
+
+}
+
+.footer-nav #logo {
+	height: 60px; width: auto;
+	margin: 0 0 0 10%;
+}
+
+.footer-nav ul {
+	width: 200px;
+    list-style-type: none;
+    overflow: hidden;
+    line-height: 280%;
+    margin: 10% 25% 0 25%;
+}
+
+.footer-nav li {
+    padding: 0 10px 0 10px;
+}
+
+.footer-nav li a{
+	display: block;
+	color: #015426;
+	text-decoration: none;
+	font-size: 2em;
+}
+    
+}
+
+@media only screen and (max-width: 570px) {
+
+#logo {
+	float: left; display: inline;
+	height: 60px; width: 180px;
+	padding: 10px 0 0 15%;
+	}
+
+#papir {
+	min-height: 300px;
+	min-width:  auto;
+	background: url("img/papir1.png") no-repeat center center;
+	background-size:contain;
+	text-align: center;
+	}
+
+	#papir h1 {
+	padding: 10% 25% 0 25% ;
+	}
+
+	#papir p {
+		height: 25%;
+		width: 25%
+	padding: 0% 25% 0 25%;
+	font-size: 0.7em;
+	}
+
+	#ideja img {
+		display: none;
+	}
+
+	#avantura2{
+	height: 200px;
+	width: 250px;
+	background-color: #336633;
+	margin-left: 20%;
+	border-radius: 30px 30px 0 0;
+	color: white;
+	}
+
+	.blue{
+	min-height: 450px;
+	width: auto;
+	background-color: #3fc1cf;
+}
+
+	#casopis{
+	min-height: 300px;
+    width: 300px;
+        margin-left: 15%;
+	background: url("img/casopis.png") no-repeat center center;
+	background-size: contain;
+	
+	}
+
+	.cijena{
+	min-height: 400px;
+	width: 400px;
+	float: left;
+	display: inline;
+	text-align: center;
+	position: relative;
+	padding-left: 10%;
+	}
+
+	.cijena h1{
+	padding-top: 40px;
+	color: #00667f;
+}
+
+.cijena p{
+	color: white;
+
+}
+
+#kn {
+	min-height: 100px;
+    width: 20%;
+    background-color: #00667f;
+    border-radius: 80%;
+    text-align: center;
+}
+
+#kn p{
+	color: #ffffff;
+	font-size: 3em;
+	
+}
+
+#kn span{
+	color: #9fdfe8;
+	font-size: 0.5em;
+}
+
+#naruci-button{
+	background-color: #00667f;
+	border: 1px solid #00667f;
+	border-radius: 15px;
+	text-transform: uppercase; font-family: 'Luckiest Guy', cursive;
+	width: 150px;
+}
+
+#naruci-button h2{
+	color: #3fc1cf;
+
+}
+
+#naruci-button p{
+	color: white;
+}
+
+
+	.footer-nav li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-size: 2em;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+	nav {
+	height: 80px; width: 100%;
+	background-color: #69bd4b;
+}
+
+#logo {
+	float: left; display: inline;
+	height: 60px; width: 80px;
+	padding: 0px 0 0 10px;
+}
+
+#hamburger{
+	background: url("img/hamburger.png") no-repeat center center;
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	display: hidden;
+	margin: 25px 30px;
+}
+
+li button {
+	height: 55px;
+	width: 100px;
+	color: white;
+	background-color: #01a54f;
+	text-transform: uppercase; font-family: 'Luckiest Guy', cursive;
+	font-size: 1.3em;
+	border: 2px solid #1d7b3f;
+    border-radius: 10px;
+}
+
+
+#papir {
+	min-height: 300px;
+	min-width:  auto;
+	background: url("img/papir.png") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+#papir h1 {
+	padding: 10% 25% 0 25% ;
+}
+#papir p {
+	padding: 0% 25% 0 25% ;
+	font-size: 0.7em;
+	line-height: 120%;
+}
+
+.moje-avanture{
+	background: url("img/avanture.png") no-repeat center center;
+	min-height: 250px;
+	width: auto;
+	background-size: cover;
+	text-align: center;
+}
+
+#avantura{
+	height: 80px;
+	width: 100px;
+	background-color: #336633;
+	margin-left: 40%;
+	border-radius: 0 0 30px 30px;
+	color: white;
+	line-height:20px
+}
+
+#avantura h2{
+	padding-top: 30px;
+}
+
+
+#avantura span{
+	font-size: 0.6em;
+	color: #bcdfb7
+}
+.boxes {
+
+	min-height: 750px;
+	width: auto;
+	margin-left: 40px;
+}
+
+.boxes div {
+	min-height: 100px;
+	width: 35%;
+	margin: 5px 5px 5px 5px;
+	border: 5px solid #015426;
+	border-radius: 15px;
+	background: url("img/box-sample.png") no-repeat center center;
+	background-size: cover;
+	background-color: white;
+	transition: transform .2s;
+}
+
+.boxes div:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#avantura2{
+	height: 200px;
+	width: 200px;
+	background-color: #336633;
+	margin-left: 25%;
+	border-radius: 30px 30px 0 0;
+	color: white;
+
+}
+
+#avantura2 h2{
+	padding: 40px 10px 0 10px;
+}
+
+#avantura2 button {
+	height: 45px;
+	width: 200px;
+	margin-top: 20px;
+	color: yellow;
+	text-transform: uppercase; font-family: 'Luckiest Guy', cursive;
+	background-color: #4bab0b;
+	border: 2px solid #003417;
+	border-radius: 10px;
+	font-size: 0.9em;
+}
+
+#avantura2 button:hover {
+    background-color: #f6c451; /* Green */
+    color: #b54c1d;
+    border: 2px solid #c75320;
+    border-radius: 10px;
+}
+
+#ideja{
+	min-height: 120px;
+	width: auto;
+	background-color: #0093b5;
+	padding: 50px 0 0 80px;
+}
+
+#ideja h3{
+	color: #b1e3fa
+}
+
+
+#casopis{
+	min-height: 320px;
+	width: 70%;
+	background: url("img/casopis.png") no-repeat center center;
+	background-size: contain;
+	float: left;
+}
+
+.cijena{
+	min-height: 200px;
+	width: 50%;
+	display: inline;
+	text-align: center;
+}
+
+.cijena h1{
+	padding-top: 40px;
+	color: #00667f;
+	margin-left: 50%;
+}
+
+.cijena p{
+	color: white;
+	margin-left: 50%;
+	font-size: 1.2em;
+}
+
+#kn {
+	min-height: 120px;
+	width: 50%;
+	background-color: #00667f;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 50%;
+}
+
+#kn p{
+	color: #ffffff;
+	font-size: 3em;
+	padding-top: 20%;
+	margin-left: 5%;
+}
+
+#kn span{
+	color: #9fdfe8;
+	font-size: 0.5em;
+}
+
+#naruci-button{
+	background-color: #00667f;
+	border: 1px solid #00667f;
+	border-radius: 15px;
+	text-transform: uppercase; font-family: 'Luckiest Guy', cursive;
+	width: 150px;
+	margin-left: 35%;
+}
+
+#naruci-button h2{
+	color: #3fc1cf;
+
+}
+
+#naruci-button p{
+	color: white;
+	margin-left: 5%;
+}
+
+footer{
+	min-height: 850px;
+	width: auto;
+	background: url("img/footer-img.png") no-repeat center center;
+	background-size: cover;
+}
+
+.footer-nav{
+	height: 100px;
+	width: auto;
+	background-color: transparent;
+	padding-top: 450px;
+
+}
+
+.footer-nav #logo {
+	height: 60px; width: 50px;
+	margin: auto;
+	padding-right: 50px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding-right: 50px;
+}
+
+.footer-nav li {
+    float: right;
+    padding: 0 10px 0 10px;
+}
+
+.footer-nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+}
