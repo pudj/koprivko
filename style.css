@@ -678,7 +678,7 @@ li button {
 	padding: 10% 25% 0 25% ;
 }
 #papir p {
-	padding: 0% 25% 0 25% ;
+	padding: 0% 15% 0 25% ;
 	font-size: 0.7em;
 	line-height: 120%;
 }
@@ -861,15 +861,16 @@ footer{
 }
 
 .footer-nav #logo {
-	height: 60px; width: 50px;
+	height: auto; 
+	width: auto;
 	margin: auto;
-	padding-right: 50px;
+	position: absolute;
 }
+
 
 .footer-nav ul {
     list-style-type: none;
-    margin: auto;
-    padding-right: 50px;
+    margin: 0 0 0 60px;
 }
 
 .footer-nav li {
