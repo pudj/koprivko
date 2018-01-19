@@ -323,7 +323,7 @@ footer{
 	height: 100px;
 	width: auto;
 	background-color: transparent;
-	padding-top: 450px;
+	padding-top: 400px;
 
 }
 
@@ -331,13 +331,15 @@ footer{
 	float: left; display: inline;
 	height: 60px; width: 180px;
 	padding: 0px 0 0 70px;
+	position: absolute;
 }
 
 .footer-nav ul {
     list-style-type: none;
-    margin-right: 200px;
-    padding: 50px 0 0 0;
+    padding: 80px;
     overflow: hidden;
+    float: left;
+    font-size: 1.1em;
     
 }
 
@@ -365,7 +367,7 @@ footer{
     .footer-nav ul {
     list-style-type: none;
     margin-right: 100px;
-    padding: 50px 0 0 0;     
+    padding: 100px 0 0 0;     
 }
 
 }
@@ -427,9 +429,9 @@ footer{
 
 	#papir p {
 		height: 25%;
-		width: auto;
-	padding: 0% 25% 0 25%;
-	font-size: 0.8em;
+		width: 200px;
+	padding: 0% 25% 0 35%;
+	font-size: 0.7em;
 	}
 
 	.boxes {
@@ -474,14 +476,14 @@ footer{
 
 .footer-nav #logo {
 	height: 60px; width: auto;
-	margin: 0 0 0 10%;
+	margin: 10% 0 0 10%;
 }
 
 .footer-nav ul {
 	width: 200px;
     list-style-type: none;
     overflow: hidden;
-    line-height: 280%;
+    line-height: 250%;
     margin: 10% 25% 0 25%;
 }
 
@@ -491,7 +493,7 @@ footer{
 
 .footer-nav li a{
 	display: block;
-	color: #015426;
+	color: white;
 	text-decoration: none;
 	font-size: 2em;
 }
@@ -902,20 +904,19 @@ footer{
 
 .footer-nav #logo {
 	height: 60px; width: 200px;
-	margin: auto;
-	padding-left: 15%;
+	margin: 0 0 0 100px;
+	position: absolute;
 
 }
 
 .footer-nav ul {
     list-style-type: none;
-    margin: auto;
-    padding: 100px 40% 0 0;
+    margin: 50px 0px 0px 180px;
     font-size: 1.4em;
+    float: left;
 }
 
 .footer-nav li {
-    float: right;
     padding: 0 10px 0 10px;
 }
 
